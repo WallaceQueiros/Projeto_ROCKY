@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+header{
+    box-sizing: border-box;
+    font-family: "Porppeling", 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: #b10333;
+    font-weight: 1000;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Branco{
+    color: rgb(219, 219, 226);
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active 
+{
+    background: #fff;
+    color: #2b1055;
+}
+
+body{
+   
+    background: #fff url(../image/fundo.png) repeat-x;
+}
+
+#conteudo{
+    width: 750px;
+}
+#titulo {
+    font-family: sans-serif;
+    color: #fff;
+    margin-top: 15rem;
+    margin-left: 7%;
+    
+} 
+
+/* "Subtitulo" */
+#subtitulo {
+    font-family: sans-serif;
+    color: #fff;
+    margin-left: 13%;
+} 
+
+#check{
+    display: inline-block;
+}
+
+/* <fieldset>*/
+fieldset {
+    border: 0;
+}
+
+/* <body> */
+body{
+    background-color: #294c71;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+/* <body>, <input>, <Select>, <textarea> e <button> */
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+/* Classe "grupo" "before" e "after" */
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+/* Classe "grupo"  "after" */
+.grupo:after {
+    clear: both;
+}
+
+/* Classe "campo" */
+.campo {
+    margin-bottom: 1em;
+}
+
+/* Classe "campo" de tag <label> */
+.campo label {
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+/* Classe "grup" */
+.grup{
+    color: #fff;
+}
+
+/* "Campo" ou "grupo" de tag <fieldset> */
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+/* Classe "campo" das tags <input>  atributo text e email, da tag <select> e da tag <textarea>*/
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #fff;
+    display: block;
+}
+
+/* Classe "campo" tag <select> e <option>*/
+.campo select option {
+    padding-right: 1em;
+}
+
+/* Classe "campo" tag <input>, <select> e <textarea>  "focus"*/
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #fff;
+}
+
+/*  botao */
+.botao {
+    font-size: 1.2em;
+    background: #b10333;
+    border: 0;
+    margin-bottom: 1em;
+    color: #fff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -40%)
+}
+
+
+/* Classe botão e tag <select> */
+.botao, select{
+    cursor: pointer;
+}
+
+#container_rodape{
+    background:#294c71 ;
+    padding: 20px;
+}

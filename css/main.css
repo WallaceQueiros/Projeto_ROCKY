@@ -1,0 +1,252 @@
+/* Formato Inicio */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Porppeling", 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/* Formatando Header */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Formatando Logo */
+header .logo{
+    color: #b10333;
+    font-weight: 1000;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Branco{
+    color: rgb(219, 219, 226);
+}
+/* Fim logo */
+
+/* Formatando Nav */
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+/* Formatando nav intern */
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active 
+{
+    background: #fff;
+    color: #2b1055;
+}
+/* Fim header */
+
+/* Imagem header */
+body{
+   
+    background: #fff url(../image/fundo.png) repeat-x;
+}
+
+/* Formatando Layout */
+#conteudo{
+    width: 750px;
+    margin: 0 auto;
+    background: rgb(231, 230, 227);
+    margin-top: 15rem;
+    margin-left: 15rem;
+    margin-right: 12rem ;
+
+}
+/* Formatando Lateral_Tamanho */
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    
+}
+
+/* Formatando Caixa */
+.caixa_conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.caixa{
+    background: #f3f3f3 url(../image/fundo-caixa.png);
+    margin: 10px 0px;
+    padding: 5px 
+}
+
+/* Formatando Lateral */
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+/* Formatando Marcador_Lateral */
+#lateral ul a:hover{
+    background: #f9f9f9 url(../image/marcador.png) no-repeat left center;
+    color: #a1a1a1;
+    padding-left: 20px;
+}
+
+/* Formatando Formulario */
+label{
+    display: block;
+    padding-bottom: 5px;
+}
+
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background: #fff;
+}
+
+/* Formatando Cadastrar */
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #294c71;
+    border: 2px solid #102031;
+    cursor: pointer;
+}
+
+/*Formatando Destaque_Tamanho */
+#tres_colunas #primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 190px;
+    
+}
+#uma_coluna #primario{
+    width: 750px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+/* Formatando Destaque_ intern */
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #b10333; 
+    color: #fff;
+}
+
+/* Formatando Imagem_destaque */
+img{
+    border: 2px solid #dfdfdf;
+}
+
+img.imagem_principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/* Mundo FOrmat*/
+
+#lista_noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista_noticias li a img{
+    float: left;
+    margin: 5px;
+}
+
+
+#lista_noticias li a p{
+    font-size: 0.7em;
+}
+
+#lista_noticias li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+
+
+#lista_noticias li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista_noticias li a{
+    text-decoration: none;
+}
+
+
+
+/*Formatando UltimaEntre_Tamanho */
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    
+}
+
+.entrevista h3{
+    background: #b10333;
+    color: #fff;
+}
+
+
+/* Formatando Rodape */
+#container_rodape{
+    background:#294c71 ;
+    padding: 20px;
+}
+
+#rodape{
+    width: 750px;
+    margin-left: 30px;
+    color: #fff;
+}
+
